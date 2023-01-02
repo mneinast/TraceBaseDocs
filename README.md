@@ -1,5 +1,5 @@
 # TraceBaseDocs
-Documentation for [TraceBase](https://github.com/Princeton-LSI-ResearchComputing/tracebase) users
+[Documentation](https://mneinast.github.io/TraceBaseDocs/) for [TraceBase](https://github.com/Princeton-LSI-ResearchComputing/tracebase) users.
 
 ## Generating the Documentation
 Documentation is drafted in markdown using [Obsidian](https://obsidian.md/), or other markdown editors. This set of markdown documents is used to generate a static site using [MkDocs](https://www.mkdocs.org/) (with a [readthedocs](https://readthedocs.org/) template).  Currently, this site is only served locally.  The site updates live as changes are made to the markdown documents in Obsidian (or other markdown editors).
@@ -25,6 +25,11 @@ Use mkdocs to generate the static site (locally).
 1) `python mkdocs serve --verbose` (verbose is optional but recommended)
 
 The site can be accessed at http://127.0.0.1:8000/repo-name/
+
+### Deploy the site
+Use mkdocs to deploy the site to this repo's github pages.
+1) `python mkdocs gh-deploy`
+2) site is deployed at [https://mneinast.github.io/TraceBaseDocs/](https://mneinast.github.io/TraceBaseDocs/)
 
 ## Known Issues and Workarounds
 Markdown notation includes some quirks and Obsidian interpretation of markdown is slightly different than mkdocs in some cases.  Here is a list of differences between Obsidian and mkdocs / basic requirements for markdown documentation:
