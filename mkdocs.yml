@@ -1,5 +1,5 @@
 site_name: TraceBase Documentation
-site_url: https://group-name.gitlab.io/repo-name
+site_url: http://mneinast.github.io/TraceBaseDocs
 site_dir: public
 docs_dir: ./TraceBaseDocs
 
